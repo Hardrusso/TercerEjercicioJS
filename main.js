@@ -1,8 +1,32 @@
-var n1 = parseInt(prompt("Ingrese la nota 1"));
+var n1 = parseFloat(prompt("Ingrese la nota 1"));
+while (n1 < 0.0 || n1 > 5.0 || isNaN(n1)) {
+    alert("La nota ingresada no es válida. Debe estar entre 0.0 y 5.0.");
+    n1 = parseFloat(prompt("Ingrese la nota 1"));
+} 
+
 var n2 = parseInt(prompt("Ingrese la nota 2"));
+while (n2 < 0.0 || n1 > 5.0 || isNaN(n1)) {
+    alert("La nota ingresada no es válida. Debe estar entre 0.0 y 5.0.");
+    n2 = parseFloat(prompt("Ingrese la nota 1"));
+}
+
 var n3 = parseInt(prompt("Ingrese la nota 3"));
+while (n3 < 0.0 || n1 > 5.0 || isNaN(n1)) {
+    alert("La nota ingresada no es válida. Debe estar entre 0.0 y 5.0.");
+    n3 = parseFloat(prompt("Ingrese la nota 1"));
+}
+
 var n4 = parseInt(prompt("Ingrese la nota 4"));
+while (n4 < 0.0 || n1 > 5.0 || isNaN(n1)) {
+    alert("La nota ingresada no es válida. Debe estar entre 0.0 y 5.0.");
+    n4 = parseFloat(prompt("Ingrese la nota 1"));
+}
+
 var n5 = parseInt(prompt("Ingrese la nota 5"));
+while (n5 < 0.0 || n1 > 5.0 || isNaN(n1)) {
+    alert("La nota ingresada no es válida. Debe estar entre 0.0 y 5.0.");
+    n5 = parseFloat(prompt("Ingrese la nota 1"));
+}
 
 var promedio = (n1+n2+n3+n4+n5)/5;
 
